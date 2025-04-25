@@ -142,10 +142,3 @@ input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
-
-body {
-    background-image:url(../img/back\ rougue.jpeg) ;
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; 
-  }
