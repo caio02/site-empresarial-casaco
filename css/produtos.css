@@ -1,0 +1,87 @@
+body {
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    height: 90px; 
+    background-color: rgb(204, 47, 27);
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    margin: -10px;
+}
+
+nav a {
+    color: white; 
+}
+
+.botao{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(204, 47, 27);;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.9);
+    transition: all 0.7s ease;
+    cursor: pointer
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: rgb(204, 47, 27); ;
+    border: 5px solid rgb(204, 47, 27);
+    box-shadow: 10px 10px 5px rgb(204, 47, 27);
+}
+
+.botao:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translate(8px);
+}
+
+#vitrine {
+    width: 100%;
+}
+
+#vitrine a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(204, 48, 27);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+section article {
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+
+}
+footer {display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding:16px;
+    position: absolute; 
+    width: 100% ; 
+    height: 90px; 
+    background-color: rgb(204, 047, 027); 
+    top: 1350px; 
+    left: 0px;
+    right: 0px;}
